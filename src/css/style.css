@@ -1,0 +1,28 @@
+.heading2 {
+  color: aquamarine;
+}
+
+section h1 {
+  font-size: 28px;
+  color: #032f3e;
+}
+
+#main-nav {
+  background-color: #032f3e;
+}
+#main-nav ul {
+  width: 100%;
+}
+#main-nav ul li {
+  float: left;
+  width: 14%;
+}
+#main-nav ul li a {
+  color: #f8f9fb;
+}
+
+#main-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
