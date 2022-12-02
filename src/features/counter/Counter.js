@@ -14,7 +14,7 @@ const Counter = () => {
   const dispatch = useDispatch();
   return (
     <section>
-      <p>{count}</p>
+      <p className="heading2">{count}</p>
       <div>
         <button
           onClick={() => {

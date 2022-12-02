@@ -1,0 +1,31 @@
+@mixin banner{
+    width: 100%;
+    position: relative;
+    color: white;
+    .banner-content{
+      position: absolute;
+      top: 50px;
+      width: 100%;
+    }
+    img{
+      width: 100%;
+    }
+    span{
+      font-size: $bannerHeading;
+      display: block;
+      text-transform: uppercase;
+      font-weight: bold;
+      @include mQ(3000px, 1200px){
+        font-size: 68px;
+      }
+    }
+    span.sub-title{
+      font-weight: normal;
+      margin-bottom: 30px;
+    }
+    @include mQ(1200px){
+      max-height: 640px;
+      overflow: hidden;
+    }
+  }
+  
